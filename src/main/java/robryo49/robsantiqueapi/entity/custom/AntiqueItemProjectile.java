@@ -14,6 +14,7 @@ import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.nbt.NbtCompound;
 import net.minecraft.nbt.NbtElement;
+import net.minecraft.registry.Registries;
 import net.minecraft.server.network.ServerPlayerEntity;
 import net.minecraft.sound.SoundEvent;
 import net.minecraft.sound.SoundEvents;
@@ -221,6 +222,6 @@ public class AntiqueItemProjectile extends PersistentProjectileEntity {
     }
 
     public Identifier getTexture() {
-        return new Identifier("item/test_tool.png");
+        return new Identifier("item/" + Registries.ITEM.getId(this.getItemStack().getItem()) + ".png");
     }
 }
