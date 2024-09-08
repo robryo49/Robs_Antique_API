@@ -9,7 +9,7 @@
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"sources": "https://github.com/robryo49/Robs_Antique_API_1.20.1"
 	},
 	"license": "MIT",
 	"icon": "assets/robsantiqueapi/icon.png",
@@ -17,6 +17,9 @@
 	"entrypoints": {
 		"main": [
 			"robryo49.robsantiqueapi.RobsAntiqueAPI"
+		],
+		"client": [
+			"robryo49.robsantiqueapi.RobsAntiqueAPIClient"
 		],
 		"fabric-datagen": [
 			"robryo49.robsantiqueapi.RobsAntiqueAPIDataGenerator"

@@ -1,0 +1,26 @@
+{
+  "item.custom.two_handed": "- Two-Handed %s",
+  "item.custom.two_handed_description_1": "    Slows down your attack speed and mining speed",
+  "item.custom.two_handed_description_2": "    if an item is held in the off-hand",
+
+  "item.custom.throwable": "- Throwable %s",
+  "item.custom.throwable_description_1": "    This item can be thrown to deal damage at a",
+  "item.custom.throwable_description_2": "    distance",
+
+  "item.custom.heavy_hitting": "- Heavy Hitting %s",
+  "item.custom.heavy_hitting_description_1": "    This item can disable shields and stuns target",
+  "item.custom.heavy_hitting_description_2": "    on critical hits",
+
+  "item.custom.armor_piercer": "- Armor Piercer %s",
+  "item.custom.armor_piercer_description_1": "    This item can do more damage through armor",
+  "item.custom.armor_piercer_description_2": "    making it less effective",
+
+  "item.custom.shield_breaker": "- Shield Breaker",
+  "item.custom.shield_breaker_description": "    This item can disable shields on hit like an axe",
+
+  "item.custom.extended_reach": "- Extended Reach",
+  "item.custom.extended_reach_description": "    This item can further",
+
+  "item.custom.blocker": "- Blocker",
+  "item.custom.blocker_description": "    This item can block like a shield"
+}
