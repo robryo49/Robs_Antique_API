@@ -5,11 +5,8 @@ import net.minecraft.item.ToolMaterial;
 import net.minecraft.item.ToolMaterials;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
-import net.minecraft.registry.tag.BlockTags;
 import net.minecraft.util.Identifier;
 import robryo49.robsantiqueapi.RobsAntiqueAPI;
-import robryo49.robsantiqueapi.item.custom.AntiqueItemSettings;
-import robryo49.robsantiqueapi.item.custom.AntiqueToolItem;
 
 import java.util.ArrayList;
 import java.util.Arrays;
