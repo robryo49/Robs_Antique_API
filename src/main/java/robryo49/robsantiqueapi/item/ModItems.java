@@ -16,21 +16,6 @@ import java.util.Arrays;
 
 public class ModItems {
 
-    public static final Item TEST_TOOL = registerItem("test_tool", new AntiqueToolItem(
-            5, -3, ToolMaterials.DIAMOND,
-            new AntiqueItemSettings()
-                    .effectiveAgainst(BlockTags.AXE_MINEABLE)
-                    .effectiveAgainst(BlockTags.PICKAXE_MINEABLE)
-                    .twoHanded(3)
-                    .heavyHitting(1)
-                    .canBreakShields()
-                    .throwable(5)
-                    .armorPiercer(5)
-                    .isForMining()
-                    .isWeapon()
-                    .reach(10)
-    ));
-
     public static ArrayList<ToolMaterial> materials = new ArrayList<>(Arrays.asList(ToolMaterials.values()));
     public static ArrayList<Item> antiqueToolItems = new ArrayList<>();
 
