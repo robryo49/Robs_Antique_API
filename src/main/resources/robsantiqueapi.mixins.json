@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "package": "robryo49.robsantiqueapi.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "enchantment_mixins.EnchantmentHelperMixin",
+    "enchantment_mixins.EnchantmentMixin",
+    "entity_mixins.LivingEntityMixin",
+    "entity_mixins.PlayerEntityMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+	}
+}
