@@ -3,7 +3,7 @@ package robryo49.robsantiqueapi;
 import net.fabricmc.api.ClientModInitializer;
 import net.fabricmc.fabric.api.client.rendering.v1.EntityRendererRegistry;
 import robryo49.robsantiqueapi.client.render.entity.AntiqueItemProjectileRenderer;
-import robryo49.robsantiqueapi.entity.ModEntities;
+import robryo49.robsantiqueapi.entity.AntiqueEntities;
 
 public class RobsAntiqueAPIClient implements ClientModInitializer {
 
@@ -11,7 +11,7 @@ public class RobsAntiqueAPIClient implements ClientModInitializer {
     }
 
     public void registerEntityRenderers() {
-        EntityRendererRegistry.register(ModEntities.ANTIQUE_ITEM_PROJECTILE, AntiqueItemProjectileRenderer::new);
+        EntityRendererRegistry.register(AntiqueEntities.ANTIQUE_ITEM_PROJECTILE, AntiqueItemProjectileRenderer::new);
     }
 
     @Override

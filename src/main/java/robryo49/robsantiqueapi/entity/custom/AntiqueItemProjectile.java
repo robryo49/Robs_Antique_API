@@ -25,7 +25,7 @@ import net.minecraft.util.math.Vec3d;
 import net.minecraft.world.World;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
-import robryo49.robsantiqueapi.entity.ModEntities;
+import robryo49.robsantiqueapi.entity.AntiqueEntities;
 import robryo49.robsantiqueapi.item.custom.AntiqueToolItem;
 
 import static org.joml.Math.sqrt;
@@ -39,7 +39,7 @@ public class AntiqueItemProjectile extends PersistentProjectileEntity {
     public Hand hand;
 
     public AntiqueItemProjectile(World world, LivingEntity owner, @NotNull ItemStack stack, Hand hand) {
-        super(ModEntities.ANTIQUE_ITEM_PROJECTILE, owner, world);
+        super(AntiqueEntities.ANTIQUE_ITEM_PROJECTILE, owner, world);
         this.dataTracker.set(itemStack, stack.copy());
         this.dataTracker.set(LOYALTY, (byte) EnchantmentHelper.getLoyalty(stack));
         this.dataTracker.set(ENCHANTED, stack.hasGlint());

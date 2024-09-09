@@ -10,7 +10,7 @@ import net.minecraft.util.Identifier;
 import robryo49.robsantiqueapi.RobsAntiqueAPI;
 import robryo49.robsantiqueapi.entity.custom.AntiqueItemProjectile;
 
-public class ModEntities {
+public class AntiqueEntities {
 
     public static final EntityType<AntiqueItemProjectile> ANTIQUE_ITEM_PROJECTILE =
             Registry.register(Registries.ENTITY_TYPE, new Identifier(RobsAntiqueAPI.MOD_ID, "antique_item_projectile"),
