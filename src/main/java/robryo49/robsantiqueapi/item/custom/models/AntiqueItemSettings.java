@@ -1,4 +1,4 @@
-package robryo49.robsantiqueapi.item.custom;
+package robryo49.robsantiqueapi.item.custom.models;
 
 import net.minecraft.block.Block;
 import net.minecraft.item.Item;
@@ -8,11 +8,12 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class AntiqueItemSettings extends Item.Settings {
+    public int size = 1;
     public int throwableLevel = 0; // DONE
     public int twoHandedLevel = 0; // DONE
     public int heavyHittingLevel = 0; // DONE
     public int armorPiercingLevel = 0; // DONE
-    public double reach = 4.0D; // DONE
+    public double reach = 3.0D; // DONE
     public boolean isForMining = false; // DONE
     public boolean isWeapon = false; // DONE
     public boolean canBlock = false; // DONE
@@ -65,6 +66,11 @@ public class AntiqueItemSettings extends Item.Settings {
 
     public AntiqueItemSettings effectiveAgainst(TagKey<Block> tagKey) {
         effectiveBlocks.add(tagKey);
+        return this;
+    }
+
+    public AntiqueItemSettings setSize(int size) {
+        this.size = size;
         return this;
     }
 }

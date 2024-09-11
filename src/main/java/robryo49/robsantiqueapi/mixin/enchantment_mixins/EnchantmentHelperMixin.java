@@ -10,7 +10,7 @@ import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Redirect;
 import robryo49.robsantiqueapi.enchantment.AntiqueEnchantmentTarget;
-import robryo49.robsantiqueapi.item.custom.AntiqueToolItem;
+import robryo49.robsantiqueapi.item.custom.models.AntiqueToolItem;
 
 @Mixin(EnchantmentHelper.class)
 public class EnchantmentHelperMixin {

@@ -23,11 +23,15 @@ public class AntiqueItemProjectileRenderer extends EntityRenderer<AntiqueItemPro
     @Override
     public void render(AntiqueItemProjectile entity, float yaw, float tickDelta, MatrixStack matrixStack, VertexConsumerProvider vertexConsumers, int light) {
 
+        ItemStack itemStack = entity.getItemStack();
+        float scale = 1.75F;
+        if (itemStack.getItem() instanceof AntiqueToolItem antiqueToolItem) scale *= antiqueToolItem.size;
+
         matrixStack.push();
         matrixStack.multiply(RotationAxis.POSITIVE_Y.rotationDegrees(entity.getYaw() - 90));
         matrixStack.multiply(RotationAxis.POSITIVE_Z.rotationDegrees(entity.getPitch() - 45));
-        matrixStack.scale(1.75F, 1.75F, 1.75F);
-        ItemStack itemStack = entity.getItemStack();
+        matrixStack.scale(scale, scale, 1.75F);
+        matrixStack.translate(0.0F, -0.15F, 0.0F);
 
         this.itemRenderer
                 .renderItem(
