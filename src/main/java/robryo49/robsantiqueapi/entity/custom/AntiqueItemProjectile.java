@@ -26,6 +26,7 @@ import net.minecraft.world.World;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 import robryo49.robsantiqueapi.entity.AntiqueEntities;
+import robryo49.robsantiqueapi.item.custom.models.AntiqueToolItem;
 
 import static org.joml.Math.sqrt;
 

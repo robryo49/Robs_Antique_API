@@ -31,7 +31,6 @@ import net.minecraft.util.TypedActionResult;
 import net.minecraft.util.UseAction;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
-import net.robryo49.antiqueweaponry.item.AntiqueToolItem;
 import robryo49.robsantiqueapi.entity.custom.AntiqueItemProjectile;
 import robryo49.robsantiqueapi.item.custom.models.AntiqueItemSettings;
 

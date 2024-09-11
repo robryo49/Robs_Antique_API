@@ -11,6 +11,7 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.math.RotationAxis;
 import robryo49.robsantiqueapi.entity.custom.AntiqueItemProjectile;
+import robryo49.robsantiqueapi.item.custom.models.AntiqueToolItem;
 
 public class AntiqueItemProjectileRenderer extends EntityRenderer<AntiqueItemProjectile> {
     public final ItemRenderer itemRenderer;
